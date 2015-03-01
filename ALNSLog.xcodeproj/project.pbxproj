@@ -14,6 +14,7 @@
 		65BC918E1AA3BFE200C21026 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65BC918D1AA3BFE200C21026 /* Images.xcassets */; };
 		65BC91911AA3BFE200C21026 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BC918F1AA3BFE200C21026 /* LaunchScreen.xib */; };
 		65BC919D1AA3BFE200C21026 /* ALNSLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC919C1AA3BFE200C21026 /* ALNSLogTests.m */; };
+		65BC91A81AA3BFF300C21026 /* ALNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC91A71AA3BFF300C21026 /* ALNSLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		65BC91961AA3BFE200C21026 /* ALNSLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALNSLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BC919B1AA3BFE200C21026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BC919C1AA3BFE200C21026 /* ALNSLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALNSLogTests.m; sourceTree = "<group>"; };
+		65BC91A61AA3BFF300C21026 /* ALNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALNSLog.h; sourceTree = "<group>"; };
+		65BC91A71AA3BFF300C21026 /* ALNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALNSLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				65BC91851AA3BFE200C21026 /* AppDelegate.m */,
 				65BC91871AA3BFE200C21026 /* ViewController.h */,
 				65BC91881AA3BFE200C21026 /* ViewController.m */,
+				65BC91A61AA3BFF300C21026 /* ALNSLog.h */,
+				65BC91A71AA3BFF300C21026 /* ALNSLog.m */,
 				65BC918A1AA3BFE200C21026 /* Main.storyboard */,
 				65BC918D1AA3BFE200C21026 /* Images.xcassets */,
 				65BC918F1AA3BFE200C21026 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BC91A81AA3BFF300C21026 /* ALNSLog.m in Sources */,
 				65BC91891AA3BFE200C21026 /* ViewController.m in Sources */,
 				65BC91861AA3BFE200C21026 /* AppDelegate.m in Sources */,
 				65BC91831AA3BFE200C21026 /* main.m in Sources */,
